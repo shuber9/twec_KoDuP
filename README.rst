@@ -1,3 +1,7 @@
+***
+This is an updated and slightly modified version of valedicas TWEC to go along with KoDuP of UZH. The installationguide was updated, the rest is left as the original.
+***
+
 =========================================================
 TWEC: Temporal Word Embeddings with a Compass (AAAI 2019)
 =========================================================
@@ -51,10 +55,10 @@ Installing
 **Important**: always create a virtual environment because TWEC uses a custom version of the gensim library.
 
 * clone the repository
-* :code:`virtualenv -p python3.6 env`
+* :code:`python3 -m venv venvname`
 * :code:`source env/bin/activate`
 * :code:`pip install cython`
-* :code:`pip install git+https://github.com/valedica/gensim.git`
+* :code:`pip install git+https://github.com/shuber9/gensim_for_twec`
 * cd in repository
 * :code:`pip install -e .`
 
