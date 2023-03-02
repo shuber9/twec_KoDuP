@@ -1,6 +1,5 @@
 ***
 This is an updated and slightly modified version of valedicas TWEC to go along with KoDuP of UZH. The installationguide was updated, the rest is left as the original.
-TODO: ausfueren
 ***
 
 =========================================================
