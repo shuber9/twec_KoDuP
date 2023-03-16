@@ -12,8 +12,8 @@ def compare_position():
     die Strings, welche gedruckt werden, aussagekräftiger zu machen, etwa 'model1' mit dem 
     tatsächlichen Namen des Korpus zu ersetzen.    
     '''
-    model1 = Word2Vec.load("model/parlament_06.model")
-    model2 = Word2Vec.load("model/parlament_16.model")
+    model1 = Word2Vec.load("model/parlament_2006.model")
+    model2 = Word2Vec.load("model/parlament_2016.model")
     model_compass = Word2Vec.load("model/compass.model")
 
     word_of_interest = "Freiheit"
