@@ -1,0 +1,388 @@
+
+2023-03-22 13:12:44,452 : INFO : files read into PathLineSentences:examples/training/compass_parlament.txt
+2023-03-22 13:12:44,453 : WARNING : consider setting layer size to a multiple of 4 for greater performance
+2023-03-22 13:12:44,453 : INFO : collecting all words and their counts
+2023-03-22 13:12:44,453 : INFO : reading file examples/training/compass_parlament.txt
+2023-03-22 13:12:44,454 : INFO : PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2023-03-22 13:12:45,806 : INFO : PROGRESS: at sentence #10000, processed 5297405 words, keeping 102048 word types
+2023-03-22 13:12:46,280 : INFO : collected 115134 word types from a corpus of 7060653 raw words and 12875 sentences
+2023-03-22 13:12:46,280 : INFO : Loading a fresh vocabulary
+2023-03-22 13:12:46,368 : INFO : effective_min_count=5 retains 31790 unique words (27% of original 115134, drops 83344)
+2023-03-22 13:12:46,369 : INFO : effective_min_count=5 leaves 6928023 word corpus (98% of original 7060653, drops 132630)
+2023-03-22 13:12:46,425 : INFO : deleting the raw counts dictionary of 115134 items
+2023-03-22 13:12:46,429 : INFO : sample=0.001 downsamples 45 most-common words
+2023-03-22 13:12:46,429 : INFO : downsampling leaves estimated 4918155 word corpus (71.0% of prior 6928023)
+2023-03-22 13:12:46,490 : INFO : estimated required memory for 31790 words and 30 dimensions: 23524600 bytes
+2023-03-22 13:12:46,490 : INFO : resetting layer weights
+2023-03-22 13:12:51,774 : INFO : reading file examples/training/compass_parlament.txt
+2023-03-22 13:12:52,363 : INFO : training model with 4 workers on 31790 vocabulary and 30 features, using sg=0 hs=0 sample=0.001 negative=10 window=5
+2023-03-22 13:12:52,390 : INFO : reading file examples/training/compass_parlament.txt
+2023-03-22 13:12:53,399 : INFO : EPOCH 1 - PROGRESS: at 11.13% words, 530261 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:12:54,401 : INFO : EPOCH 1 - PROGRESS: at 22.74% words, 543619 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:12:55,408 : INFO : EPOCH 1 - PROGRESS: at 34.18% words, 547493 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:12:56,414 : INFO : EPOCH 1 - PROGRESS: at 45.29% words, 551084 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:12:57,415 : INFO : EPOCH 1 - PROGRESS: at 56.70% words, 552995 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:12:58,420 : INFO : EPOCH 1 - PROGRESS: at 67.85% words, 550275 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:12:59,427 : INFO : EPOCH 1 - PROGRESS: at 79.44% words, 551481 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:13:00,429 : INFO : EPOCH 1 - PROGRESS: at 90.88% words, 554221 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:01,209 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:13:01,216 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:13:01,224 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:13:01,236 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:13:01,237 : INFO : EPOCH - 1 : training on 7060653 raw words (4917610 effective words) took 8.8s, 555899 effective words/s
+2023-03-22 13:13:01,238 : INFO : reading file examples/training/compass_parlament.txt
+2023-03-22 13:13:02,246 : INFO : EPOCH 2 - PROGRESS: at 11.13% words, 531104 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:03,256 : INFO : EPOCH 2 - PROGRESS: at 23.00% words, 548131 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:04,266 : INFO : EPOCH 2 - PROGRESS: at 34.46% words, 550344 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:05,294 : INFO : EPOCH 2 - PROGRESS: at 45.85% words, 553663 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:06,302 : INFO : EPOCH 2 - PROGRESS: at 56.98% words, 551437 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:07,326 : INFO : EPOCH 2 - PROGRESS: at 67.99% words, 546264 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:08,327 : INFO : EPOCH 2 - PROGRESS: at 79.02% words, 544643 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:09,337 : INFO : EPOCH 2 - PROGRESS: at 90.36% words, 546891 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:10,143 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:13:10,144 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:13:10,158 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:13:10,159 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:13:10,159 : INFO : EPOCH - 2 : training on 7060653 raw words (4918275 effective words) took 8.9s, 551331 effective words/s
+2023-03-22 13:13:10,160 : INFO : reading file examples/training/compass_parlament.txt
+2023-03-22 13:13:11,169 : INFO : EPOCH 3 - PROGRESS: at 11.13% words, 530464 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:13:12,178 : INFO : EPOCH 3 - PROGRESS: at 22.60% words, 538549 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:13,181 : INFO : EPOCH 3 - PROGRESS: at 34.05% words, 544522 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:14,208 : INFO : EPOCH 3 - PROGRESS: at 45.57% words, 551328 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:15,210 : INFO : EPOCH 3 - PROGRESS: at 56.98% words, 552921 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:13:16,219 : INFO : EPOCH 3 - PROGRESS: at 68.75% words, 554884 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:17,237 : INFO : EPOCH 3 - PROGRESS: at 79.84% words, 551198 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:18,244 : INFO : EPOCH 3 - PROGRESS: at 90.23% words, 547085 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:19,070 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:13:19,072 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:13:19,082 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:13:19,083 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:13:19,083 : INFO : EPOCH - 3 : training on 7060653 raw words (4918282 effective words) took 8.9s, 551205 effective words/s
+2023-03-22 13:13:19,084 : INFO : reading file examples/training/compass_parlament.txt
+2023-03-22 13:13:20,104 : INFO : EPOCH 4 - PROGRESS: at 11.13% words, 524901 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:21,105 : INFO : EPOCH 4 - PROGRESS: at 22.74% words, 541245 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:22,127 : INFO : EPOCH 4 - PROGRESS: at 34.18% words, 543178 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:13:23,134 : INFO : EPOCH 4 - PROGRESS: at 45.43% words, 549402 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:24,135 : INFO : EPOCH 4 - PROGRESS: at 57.12% words, 554373 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:25,141 : INFO : EPOCH 4 - PROGRESS: at 67.15% words, 542421 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:26,148 : INFO : EPOCH 4 - PROGRESS: at 76.22% words, 527411 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:27,159 : INFO : EPOCH 4 - PROGRESS: at 85.16% words, 515849 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:28,170 : INFO : EPOCH 4 - PROGRESS: at 93.85% words, 506963 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:28,748 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:13:28,752 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:13:28,757 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:13:28,763 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:13:28,763 : INFO : EPOCH - 4 : training on 7060653 raw words (4918772 effective words) took 9.7s, 508155 effective words/s
+2023-03-22 13:13:28,764 : INFO : reading file examples/training/compass_parlament.txt
+2023-03-22 13:13:29,771 : INFO : EPOCH 5 - PROGRESS: at 9.75% words, 465158 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:30,791 : INFO : EPOCH 5 - PROGRESS: at 19.60% words, 464933 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:31,807 : INFO : EPOCH 5 - PROGRESS: at 28.73% words, 455054 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:32,808 : INFO : EPOCH 5 - PROGRESS: at 38.00% words, 456808 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:33,825 : INFO : EPOCH 5 - PROGRESS: at 46.54% words, 450681 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:13:34,833 : INFO : EPOCH 5 - PROGRESS: at 56.70% words, 457839 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:35,867 : INFO : EPOCH 5 - PROGRESS: at 65.79% words, 452968 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:36,892 : INFO : EPOCH 5 - PROGRESS: at 73.51% words, 442026 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:13:37,895 : INFO : EPOCH 5 - PROGRESS: at 83.66% words, 447747 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:38,906 : INFO : EPOCH 5 - PROGRESS: at 93.18% words, 450736 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:39,498 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:13:39,511 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:13:39,515 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:13:39,523 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:13:39,523 : INFO : EPOCH - 5 : training on 7060653 raw words (4917418 effective words) took 10.8s, 457052 effective words/s
+2023-03-22 13:13:39,524 : INFO : reading file examples/training/compass_parlament.txt
+2023-03-22 13:13:40,541 : INFO : EPOCH 6 - PROGRESS: at 8.23% words, 388250 words/s, in_qsize 5, out_qsize 2
+2023-03-22 13:13:41,554 : INFO : EPOCH 6 - PROGRESS: at 15.36% words, 365152 words/s, in_qsize 7, out_qsize 1
+2023-03-22 13:13:42,587 : INFO : EPOCH 6 - PROGRESS: at 21.92% words, 343938 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:13:43,591 : INFO : EPOCH 6 - PROGRESS: at 29.00% words, 343762 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:44,609 : INFO : EPOCH 6 - PROGRESS: at 39.05% words, 373793 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:45,640 : INFO : EPOCH 6 - PROGRESS: at 49.09% words, 394108 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:13:46,681 : INFO : EPOCH 6 - PROGRESS: at 59.05% words, 404053 words/s, in_qsize 7, out_qsize 1
+2023-03-22 13:13:47,699 : INFO : EPOCH 6 - PROGRESS: at 66.76% words, 399424 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:48,729 : INFO : EPOCH 6 - PROGRESS: at 74.19% words, 393855 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:13:49,730 : INFO : EPOCH 6 - PROGRESS: at 79.84% words, 382147 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:50,732 : INFO : EPOCH 6 - PROGRESS: at 85.16% words, 371514 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:51,732 : INFO : EPOCH 6 - PROGRESS: at 91.15% words, 366017 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:52,670 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:13:52,674 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:13:52,681 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:13:52,691 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:13:52,691 : INFO : EPOCH - 6 : training on 7060653 raw words (4917153 effective words) took 13.2s, 373451 effective words/s
+2023-03-22 13:13:52,692 : INFO : reading file examples/training/compass_parlament.txt
+2023-03-22 13:13:53,695 : INFO : EPOCH 7 - PROGRESS: at 8.23% words, 394017 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:54,719 : INFO : EPOCH 7 - PROGRESS: at 15.22% words, 361378 words/s, in_qsize 8, out_qsize 2
+2023-03-22 13:13:55,730 : INFO : EPOCH 7 - PROGRESS: at 24.66% words, 390418 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:56,732 : INFO : EPOCH 7 - PROGRESS: at 33.77% words, 403716 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:57,740 : INFO : EPOCH 7 - PROGRESS: at 42.24% words, 408517 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:13:58,756 : INFO : EPOCH 7 - PROGRESS: at 51.89% words, 419893 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:13:59,761 : INFO : EPOCH 7 - PROGRESS: at 63.12% words, 436899 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:00,796 : INFO : EPOCH 7 - PROGRESS: at 71.47% words, 431080 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:01,797 : INFO : EPOCH 7 - PROGRESS: at 80.81% words, 433555 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:02,804 : INFO : EPOCH 7 - PROGRESS: at 91.15% words, 441921 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:03,655 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:14:03,658 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:14:03,660 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:14:03,667 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:14:03,668 : INFO : EPOCH - 7 : training on 7060653 raw words (4917654 effective words) took 11.0s, 448054 effective words/s
+2023-03-22 13:14:03,668 : INFO : reading file examples/training/compass_parlament.txt
+2023-03-22 13:14:04,672 : INFO : EPOCH 8 - PROGRESS: at 10.15% words, 486458 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:14:05,686 : INFO : EPOCH 8 - PROGRESS: at 20.27% words, 483181 words/s, in_qsize 6, out_qsize 1
+2023-03-22 13:14:06,710 : INFO : EPOCH 8 - PROGRESS: at 31.20% words, 494602 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:07,726 : INFO : EPOCH 8 - PROGRESS: at 41.46% words, 498585 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:08,731 : INFO : EPOCH 8 - PROGRESS: at 51.53% words, 499550 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:09,733 : INFO : EPOCH 8 - PROGRESS: at 61.78% words, 498713 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:10,734 : INFO : EPOCH 8 - PROGRESS: at 72.98% words, 504986 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:11,736 : INFO : EPOCH 8 - PROGRESS: at 84.20% words, 510185 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:12,746 : INFO : EPOCH 8 - PROGRESS: at 94.67% words, 511873 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:13,235 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:14:13,240 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:14:13,250 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:14:13,253 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:14:13,253 : INFO : EPOCH - 8 : training on 7060653 raw words (4917645 effective words) took 9.6s, 513076 effective words/s
+2023-03-22 13:14:13,254 : INFO : reading file examples/training/compass_parlament.txt
+2023-03-22 13:14:14,254 : INFO : EPOCH 9 - PROGRESS: at 9.89% words, 475178 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:14:15,262 : INFO : EPOCH 9 - PROGRESS: at 20.55% words, 492544 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:16,265 : INFO : EPOCH 9 - PROGRESS: at 31.20% words, 499889 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:17,268 : INFO : EPOCH 9 - PROGRESS: at 42.25% words, 514209 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:14:18,285 : INFO : EPOCH 9 - PROGRESS: at 53.06% words, 517448 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:19,295 : INFO : EPOCH 9 - PROGRESS: at 63.11% words, 511354 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:20,304 : INFO : EPOCH 9 - PROGRESS: at 73.26% words, 508001 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:21,323 : INFO : EPOCH 9 - PROGRESS: at 84.34% words, 510981 words/s, in_qsize 6, out_qsize 1
+2023-03-22 13:14:22,325 : INFO : EPOCH 9 - PROGRESS: at 95.63% words, 517685 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:14:22,682 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:14:22,690 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:14:22,700 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:14:22,707 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:14:22,707 : INFO : EPOCH - 9 : training on 7060653 raw words (4918704 effective words) took 9.5s, 520313 effective words/s
+2023-03-22 13:14:22,708 : INFO : reading file examples/training/compass_parlament.txt
+2023-03-22 13:14:23,711 : INFO : EPOCH 10 - PROGRESS: at 10.15% words, 486562 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:24,712 : INFO : EPOCH 10 - PROGRESS: at 20.55% words, 493571 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:25,722 : INFO : EPOCH 10 - PROGRESS: at 31.47% words, 503385 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:26,741 : INFO : EPOCH 10 - PROGRESS: at 41.19% words, 498069 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:27,747 : INFO : EPOCH 10 - PROGRESS: at 52.03% words, 506669 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:28,756 : INFO : EPOCH 10 - PROGRESS: at 63.12% words, 510609 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:29,773 : INFO : EPOCH 10 - PROGRESS: at 73.37% words, 507548 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:30,782 : INFO : EPOCH 10 - PROGRESS: at 84.75% words, 513196 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:31,791 : INFO : EPOCH 10 - PROGRESS: at 95.77% words, 517748 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:32,148 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:14:32,174 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:14:32,174 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:14:32,175 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:14:32,175 : INFO : EPOCH - 10 : training on 7060653 raw words (4917711 effective words) took 9.5s, 519463 effective words/s
+2023-03-22 13:14:32,175 : INFO : training on a 70606530 raw words (49179224 effective words) took 99.8s, 492718 effective words/s
+2023-03-22 13:14:32,175 : INFO : saving Word2Vec object under model/compass.model, separately None
+2023-03-22 13:14:32,176 : INFO : not storing attribute vectors_norm
+2023-03-22 13:14:32,176 : INFO : not storing attribute cum_table
+2023-03-22 13:14:32,303 : INFO : saved model/compass.model
+2023-03-22 13:14:32,303 : WARNING : consider setting layer size to a multiple of 4 for greater performance
+2023-03-22 13:14:32,303 : INFO : collecting all words and their counts
+2023-03-22 13:14:32,304 : INFO : PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2023-03-22 13:14:33,290 : INFO : collected 76720 word types from a corpus of 3442864 raw words and 6575 sentences
+2023-03-22 13:14:33,290 : INFO : Loading a fresh vocabulary
+2023-03-22 13:14:33,371 : INFO : effective_min_count=5 retains 28948 unique words (37% of original 76720, drops 47772)
+2023-03-22 13:14:33,371 : INFO : effective_min_count=5 leaves 3376253 word corpus (98% of original 3442864, drops 66611)
+2023-03-22 13:14:33,422 : INFO : deleting the raw counts dictionary of 76720 items
+2023-03-22 13:14:33,424 : INFO : sample=0.001 downsamples 47 most-common words
+2023-03-22 13:14:33,424 : INFO : downsampling leaves estimated 2390374 word corpus (70.8% of prior 3376253)
+2023-03-22 13:14:33,481 : INFO : estimated required memory for 28948 words and 30 dimensions: 21421520 bytes
+2023-03-22 13:14:33,482 : INFO : resetting layer weights
+2023-03-22 13:14:39,443 : INFO : training model with 4 workers on 28948 vocabulary and 30 features, using sg=0 hs=0 sample=0.001 negative=10 window=5
+2023-03-22 13:14:40,446 : INFO : EPOCH 1 - PROGRESS: at 25.09% words, 586190 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:41,450 : INFO : EPOCH 1 - PROGRESS: at 50.01% words, 583713 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:42,465 : INFO : EPOCH 1 - PROGRESS: at 73.18% words, 571233 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:43,466 : INFO : EPOCH 1 - PROGRESS: at 95.16% words, 564196 words/s, in_qsize 7, out_qsize 1
+2023-03-22 13:14:43,662 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:14:43,664 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:14:43,678 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:14:43,681 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:14:43,681 : INFO : EPOCH - 1 : training on 3442864 raw words (2389859 effective words) took 4.2s, 563931 effective words/s
+2023-03-22 13:14:44,691 : INFO : EPOCH 2 - PROGRESS: at 19.99% words, 463508 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:14:45,707 : INFO : EPOCH 2 - PROGRESS: at 42.44% words, 490779 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:46,719 : INFO : EPOCH 2 - PROGRESS: at 62.58% words, 483823 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:47,734 : INFO : EPOCH 2 - PROGRESS: at 83.64% words, 489970 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:48,370 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:14:48,379 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:14:48,388 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:14:48,396 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:14:48,396 : INFO : EPOCH - 2 : training on 3442864 raw words (2389914 effective words) took 4.7s, 507085 effective words/s
+2023-03-22 13:14:49,400 : INFO : EPOCH 3 - PROGRESS: at 24.53% words, 572814 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:50,402 : INFO : EPOCH 3 - PROGRESS: at 47.17% words, 550649 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:51,436 : INFO : EPOCH 3 - PROGRESS: at 69.53% words, 538111 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:52,448 : INFO : EPOCH 3 - PROGRESS: at 90.12% words, 529544 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:52,834 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:14:52,835 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:14:52,843 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:14:52,847 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:14:52,847 : INFO : EPOCH - 3 : training on 3442864 raw words (2390347 effective words) took 4.5s, 537091 effective words/s
+2023-03-22 13:14:53,857 : INFO : EPOCH 4 - PROGRESS: at 21.67% words, 503064 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:54,861 : INFO : EPOCH 4 - PROGRESS: at 44.69% words, 519703 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:55,874 : INFO : EPOCH 4 - PROGRESS: at 63.15% words, 489865 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:56,881 : INFO : EPOCH 4 - PROGRESS: at 87.18% words, 513903 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:57,363 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:14:57,363 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:14:57,375 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:14:57,377 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:14:57,377 : INFO : EPOCH - 4 : training on 3442864 raw words (2390331 effective words) took 4.5s, 527846 effective words/s
+2023-03-22 13:14:58,385 : INFO : EPOCH 5 - PROGRESS: at 19.15% words, 444176 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:14:59,393 : INFO : EPOCH 5 - PROGRESS: at 45.26% words, 525633 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:00,402 : INFO : EPOCH 5 - PROGRESS: at 70.68% words, 550226 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:01,409 : INFO : EPOCH 5 - PROGRESS: at 96.58% words, 571811 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:01,497 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:15:01,505 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:15:01,512 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:15:01,517 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:15:01,517 : INFO : EPOCH - 5 : training on 3442864 raw words (2390446 effective words) took 4.1s, 577462 effective words/s
+2023-03-22 13:15:02,519 : INFO : EPOCH 6 - PROGRESS: at 25.94% words, 606298 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:03,528 : INFO : EPOCH 6 - PROGRESS: at 52.50% words, 611739 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:04,534 : INFO : EPOCH 6 - PROGRESS: at 78.71% words, 617699 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:05,323 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:15:05,324 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:15:05,333 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:15:05,338 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:15:05,338 : INFO : EPOCH - 6 : training on 3442864 raw words (2390020 effective words) took 3.8s, 625742 effective words/s
+2023-03-22 13:15:06,352 : INFO : EPOCH 7 - PROGRESS: at 24.24% words, 559472 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:07,393 : INFO : EPOCH 7 - PROGRESS: at 44.68% words, 508810 words/s, in_qsize 6, out_qsize 1
+2023-03-22 13:15:08,400 : INFO : EPOCH 7 - PROGRESS: at 66.50% words, 509645 words/s, in_qsize 6, out_qsize 1
+2023-03-22 13:15:09,406 : INFO : EPOCH 7 - PROGRESS: at 92.06% words, 538889 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:09,669 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:15:09,671 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:15:09,673 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:15:09,677 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:15:09,677 : INFO : EPOCH - 7 : training on 3442864 raw words (2388987 effective words) took 4.3s, 550700 effective words/s
+2023-03-22 13:15:10,690 : INFO : EPOCH 8 - PROGRESS: at 25.37% words, 587153 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:11,692 : INFO : EPOCH 8 - PROGRESS: at 51.69% words, 601304 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:12,702 : INFO : EPOCH 8 - PROGRESS: at 77.66% words, 607829 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:13,567 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:15:13,571 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:15:13,581 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:15:13,584 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:15:13,584 : INFO : EPOCH - 8 : training on 3442864 raw words (2390896 effective words) took 3.9s, 612080 effective words/s
+2023-03-22 13:15:14,604 : INFO : EPOCH 9 - PROGRESS: at 26.52% words, 609283 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:15,610 : INFO : EPOCH 9 - PROGRESS: at 54.20% words, 627331 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:16,632 : INFO : EPOCH 9 - PROGRESS: at 80.10% words, 622890 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:17,345 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:15:17,354 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:15:17,354 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:15:17,358 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:15:17,358 : INFO : EPOCH - 9 : training on 3442864 raw words (2390392 effective words) took 3.8s, 633490 effective words/s
+2023-03-22 13:15:18,374 : INFO : EPOCH 10 - PROGRESS: at 26.52% words, 612306 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:15:19,394 : INFO : EPOCH 10 - PROGRESS: at 54.20% words, 624484 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:20,397 : INFO : EPOCH 10 - PROGRESS: at 80.66% words, 629334 words/s, in_qsize 8, out_qsize 1
+2023-03-22 13:15:21,112 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:15:21,119 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:15:21,126 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:15:21,129 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:15:21,129 : INFO : EPOCH - 10 : training on 3442864 raw words (2390733 effective words) took 3.8s, 634226 effective words/s
+2023-03-22 13:15:21,129 : INFO : training on a 34428640 raw words (23901925 effective words) took 41.7s, 573376 effective words/s
+2023-03-22 13:15:21,129 : INFO : saving Word2Vec object under model/parlament_2006.model, separately None
+2023-03-22 13:15:21,129 : INFO : not storing attribute vectors_norm
+2023-03-22 13:15:21,129 : INFO : not storing attribute cum_table
+2023-03-22 13:15:21,239 : INFO : saved model/parlament_2006.model
+2023-03-22 13:15:21,254 : WARNING : consider setting layer size to a multiple of 4 for greater performance
+2023-03-22 13:15:21,255 : INFO : collecting all words and their counts
+2023-03-22 13:15:21,257 : INFO : PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2023-03-22 13:15:22,334 : INFO : collected 76259 word types from a corpus of 3617790 raw words and 6301 sentences
+2023-03-22 13:15:22,334 : INFO : Loading a fresh vocabulary
+2023-03-22 13:15:22,462 : INFO : effective_min_count=5 retains 29449 unique words (38% of original 76259, drops 46810)
+2023-03-22 13:15:22,462 : INFO : effective_min_count=5 leaves 3551772 word corpus (98% of original 3617790, drops 66018)
+2023-03-22 13:15:22,516 : INFO : deleting the raw counts dictionary of 76259 items
+2023-03-22 13:15:22,518 : INFO : sample=0.001 downsamples 44 most-common words
+2023-03-22 13:15:22,518 : INFO : downsampling leaves estimated 2526831 word corpus (71.1% of prior 3551772)
+2023-03-22 13:15:22,580 : INFO : estimated required memory for 29449 words and 30 dimensions: 21792260 bytes
+2023-03-22 13:15:22,580 : INFO : resetting layer weights
+2023-03-22 13:15:28,290 : INFO : training model with 4 workers on 29449 vocabulary and 30 features, using sg=0 hs=0 sample=0.001 negative=10 window=5
+2023-03-22 13:15:29,302 : INFO : EPOCH 1 - PROGRESS: at 23.56% words, 577636 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:30,311 : INFO : EPOCH 1 - PROGRESS: at 48.81% words, 600105 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:31,317 : INFO : EPOCH 1 - PROGRESS: at 74.00% words, 610960 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:32,320 : INFO : EPOCH 1 - PROGRESS: at 96.24% words, 602744 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:32,452 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:15:32,456 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:15:32,466 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:15:32,469 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:15:32,469 : INFO : EPOCH - 1 : training on 3617790 raw words (2526573 effective words) took 4.2s, 604725 effective words/s
+2023-03-22 13:15:33,474 : INFO : EPOCH 2 - PROGRESS: at 24.05% words, 594400 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:15:34,493 : INFO : EPOCH 2 - PROGRESS: at 49.09% words, 603075 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:35,502 : INFO : EPOCH 2 - PROGRESS: at 73.46% words, 605639 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:36,504 : INFO : EPOCH 2 - PROGRESS: at 96.23% words, 602209 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:36,613 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:15:36,618 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:15:36,631 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:15:36,632 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:15:36,632 : INFO : EPOCH - 2 : training on 3617790 raw words (2527485 effective words) took 4.2s, 607343 effective words/s
+2023-03-22 13:15:37,635 : INFO : EPOCH 3 - PROGRESS: at 23.56% words, 583299 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:38,645 : INFO : EPOCH 3 - PROGRESS: at 47.27% words, 583744 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:39,673 : INFO : EPOCH 3 - PROGRESS: at 70.50% words, 578526 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:40,687 : INFO : EPOCH 3 - PROGRESS: at 95.70% words, 595753 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:40,831 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:15:40,840 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:15:40,840 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:15:40,845 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:15:40,845 : INFO : EPOCH - 3 : training on 3617790 raw words (2527343 effective words) took 4.2s, 600065 effective words/s
+2023-03-22 13:15:41,849 : INFO : EPOCH 4 - PROGRESS: at 23.56% words, 582087 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:42,861 : INFO : EPOCH 4 - PROGRESS: at 48.03% words, 591970 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:43,864 : INFO : EPOCH 4 - PROGRESS: at 72.91% words, 603214 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:44,883 : INFO : EPOCH 4 - PROGRESS: at 98.37% words, 615305 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:44,913 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:15:44,914 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:15:44,929 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:15:44,930 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:15:44,930 : INFO : EPOCH - 4 : training on 3617790 raw words (2527013 effective words) took 4.1s, 618694 effective words/s
+2023-03-22 13:15:45,943 : INFO : EPOCH 5 - PROGRESS: at 24.87% words, 609611 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:46,949 : INFO : EPOCH 5 - PROGRESS: at 49.09% words, 604229 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:47,971 : INFO : EPOCH 5 - PROGRESS: at 74.65% words, 614119 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:48,991 : INFO : EPOCH 5 - PROGRESS: at 98.64% words, 613687 words/s, in_qsize 6, out_qsize 0
+2023-03-22 13:15:49,013 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:15:49,014 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:15:49,025 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:15:49,026 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:15:49,026 : INFO : EPOCH - 5 : training on 3617790 raw words (2527366 effective words) took 4.1s, 617179 effective words/s
+2023-03-22 13:15:50,053 : INFO : EPOCH 6 - PROGRESS: at 20.08% words, 485240 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:15:51,067 : INFO : EPOCH 6 - PROGRESS: at 43.51% words, 529477 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:52,080 : INFO : EPOCH 6 - PROGRESS: at 66.79% words, 544120 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:53,080 : INFO : EPOCH 6 - PROGRESS: at 88.78% words, 551180 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:53,525 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:15:53,533 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:15:53,537 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:15:53,548 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:15:53,548 : INFO : EPOCH - 6 : training on 3617790 raw words (2526339 effective words) took 4.5s, 558771 effective words/s
+2023-03-22 13:15:54,555 : INFO : EPOCH 7 - PROGRESS: at 21.93% words, 540170 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:55,556 : INFO : EPOCH 7 - PROGRESS: at 44.04% words, 544791 words/s, in_qsize 8, out_qsize 0
+2023-03-22 13:15:56,578 : INFO : EPOCH 7 - PROGRESS: at 64.93% words, 533073 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:57,610 : INFO : EPOCH 7 - PROGRESS: at 81.19% words, 501690 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:15:58,626 : INFO : EPOCH 7 - PROGRESS: at 94.64% words, 470102 words/s, in_qsize 7, out_qsize 2
+2023-03-22 13:15:58,925 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:15:58,926 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:15:58,929 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:15:58,931 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:15:58,931 : INFO : EPOCH - 7 : training on 3617790 raw words (2526434 effective words) took 5.4s, 469432 effective words/s
+2023-03-22 13:15:59,933 : INFO : EPOCH 8 - PROGRESS: at 22.75% words, 563343 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:16:00,941 : INFO : EPOCH 8 - PROGRESS: at 47.27% words, 584788 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:16:01,948 : INFO : EPOCH 8 - PROGRESS: at 70.76% words, 585341 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:16:02,954 : INFO : EPOCH 8 - PROGRESS: at 93.34% words, 585007 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:16:03,187 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:16:03,194 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:16:03,203 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:16:03,211 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:16:03,211 : INFO : EPOCH - 8 : training on 3617790 raw words (2527130 effective words) took 4.3s, 590651 effective words/s
+2023-03-22 13:16:04,219 : INFO : EPOCH 9 - PROGRESS: at 23.03% words, 566646 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:16:05,221 : INFO : EPOCH 9 - PROGRESS: at 45.65% words, 564300 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:16:06,236 : INFO : EPOCH 9 - PROGRESS: at 69.96% words, 576805 words/s, in_qsize 6, out_qsize 1
+2023-03-22 13:16:07,252 : INFO : EPOCH 9 - PROGRESS: at 93.87% words, 585782 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:16:07,512 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:16:07,520 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:16:07,528 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:16:07,530 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:16:07,530 : INFO : EPOCH - 9 : training on 3617790 raw words (2527400 effective words) took 4.3s, 585282 effective words/s
+2023-03-22 13:16:08,551 : INFO : EPOCH 10 - PROGRESS: at 20.88% words, 507246 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:16:09,561 : INFO : EPOCH 10 - PROGRESS: at 45.11% words, 552124 words/s, in_qsize 7, out_qsize 0
+2023-03-22 13:16:10,570 : INFO : EPOCH 10 - PROGRESS: at 67.32% words, 551549 words/s, in_qsize 6, out_qsize 1
+2023-03-22 13:16:11,589 : INFO : EPOCH 10 - PROGRESS: at 87.99% words, 545561 words/s, in_qsize 7, out_qsize 1
+2023-03-22 13:16:12,115 : INFO : worker thread finished; awaiting finish of 3 more threads
+2023-03-22 13:16:12,126 : INFO : worker thread finished; awaiting finish of 2 more threads
+2023-03-22 13:16:12,137 : INFO : worker thread finished; awaiting finish of 1 more threads
+2023-03-22 13:16:12,140 : INFO : worker thread finished; awaiting finish of 0 more threads
+2023-03-22 13:16:12,140 : INFO : EPOCH - 10 : training on 3617790 raw words (2527253 effective words) took 4.6s, 548333 effective words/s
+2023-03-22 13:16:12,140 : INFO : training on a 36177900 raw words (25270336 effective words) took 43.9s, 576289 effective words/s
+2023-03-22 13:16:12,140 : INFO : saving Word2Vec object under model/parlament_2016.model, separately None
+2023-03-22 13:16:12,140 : INFO : not storing attribute vectors_norm
+2023-03-22 13:16:12,141 : INFO : not storing attribute cum_table
+2023-03-22 13:16:12,290 : INFO : saved model/parlament_2016.model
